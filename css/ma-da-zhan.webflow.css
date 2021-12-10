@@ -570,13 +570,13 @@ a {
 .image-5 {
   display: block;
   width: 100.0002110796%;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .image-6 {
   display: block;
   width: 100.0002110796%;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .paragraph-5 {
@@ -598,6 +598,7 @@ a {
 
 .section-4 {
   max-width: 100%;
+  margin-top: 100px;
   margin-bottom: 0px;
   padding-bottom: 220px;
 }
@@ -703,7 +704,17 @@ a {
 .link-block-5 {
   width: 100vw;
   height: 50vh;
-  background-color: #000;
+  background-color: transparent;
+  background-image: url('../images/APP介紹-1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.link-block-5:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/APP介紹-1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/APP介紹-1.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
 }
 
 .heading-15 {
@@ -744,6 +755,115 @@ a {
   font-family: 'Noto Sans TC', sans-serif;
   color: #fff;
   font-weight: 400;
+}
+
+.heading-21 {
+  margin-top: 100px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-22 {
+  margin-top: 100px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-23 {
+  margin-top: 100px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-24 {
+  margin-top: 100px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-25 {
+  margin-top: 100px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-26 {
+  margin-top: 100px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-27 {
+  display: block;
+  margin: auto;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-28 {
+  margin-top: 100px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-29 {
+  margin-top: 100px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-30 {
+  margin-top: 100px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-31 {
+  margin-top: 100px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-32 {
+  margin-top: 100px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.columns-2 {
+  margin-top: 100px;
+}
+
+.image-16 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-17 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-18 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-19 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 767px) {
